@@ -44,7 +44,8 @@ ul.a{
 }
 ul.a>li{
     transform: translateX(-50%);
-    top: 40px;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
 }
 ul.n{ /* 시작화면 네모 파트 */
@@ -509,7 +510,7 @@ q {
 
 
 #retestButton {
-    margin: 3rem 0 0.8rem 0;
+    margin: 1.5rem 0 0.8rem 0;
     padding: 0.4rem 1.8rem;
 }
 
