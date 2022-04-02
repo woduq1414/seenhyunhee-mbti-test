@@ -1,0 +1,165 @@
+mbtiData = {
+    "version": 1,
+    "mbti": {
+        "ISTJ": {
+            "title": "날개",
+            "singer": "신현희와김루트",
+            "videoCode": "fgP4ZyE8ObU",
+            "videoStart": 58,
+            "lyricHighlight": "나는 어리고 집이 그립고<br>따뜻한 사람의 손이 어색했지<br>나는 여리고 늘 불안하고<br>차가운 말들에 상철 받았었지",
+            "lyric": "내가 모르는 길들과<br>전혀 알지 못하는 사람들<br>속을 헤매고 있어<br>여기 올 거라 생각도 못한<br>예전 약했던 내 모습<br>하나 둘 기억이 나네<br>나는 어리고 집이 그립고<br>따뜻한 사람의 손이 어색했지<br>나는 여리고 늘 불안하고<br>차가운 말들에 상철 받았었지<br>휘청대고 흔들려도 나<br>무너지고 넘어진대도 나<br>괜찮아<br>상처 나고 피가 나도 나<br>부서지고 떨어진대도 나<br>괜찮아 괜찮아<br>빛을 따라 계속 걸어가네<br>끝이 어딘지는 모르지만<br>가네 계속 가네<br>나는 어리고 집이 그립고<br>따뜻한 사람의 손이 어색했지<br>나는 여리고 늘 불안하고<br>차가운 말들에 상철 받았었지<br>워어어어<br>휘청대고 흔들려도 나<br>무너지고 넘어진대도 나<br>괜찮아<br>상처 나고 피가 나도 나<br>부서지고 떨어진대도 나<br>괜찮아 괜찮아 괜찮아",
+            "albumImage": "seenroot.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=5664670"
+        },
+        "ISTP": {
+            "title": "바람 (I Wish)",
+            "singer": "신현희와김루트",   
+            "videoCode": "gHyCWwWQV3A",
+            "videoStart": 26,
+            "lyricHighlight": "힘없이 걷다가 바라본 하늘이<br>내게 말을 거나 봐<br>왜 이리도 터벅터벅 외로운<br>발걸음을 혼자 가느냐고",
+            "lyric": "힘없이 걷다가 바라본 하늘이<br>내게 말을 거나 봐<br>왜 이리도 터벅터벅 외로운<br>발걸음을 혼자 가느냐고<br>눈을 깜빡이면 바로<br>눈물이 나올 것만 같아서<br>이 악물고 하늘보고 내게 말을 해<br>나도 모르겠다고<br>나만 빼고 모두 행복하게 살아 가나 봐<br>나만 혼자 외로운 집에 혼자 있나 봐<br>하늘 보면 깜깜하고 땅은 불안한 가봐<br>웃으면서 나를 잡아줄 수 있는 누군가<br>나는 아프게 아프게<br>쓰러져있기가 싫은데<br>매일 나쁘게 나쁘게<br>나를 보채고 보채는데<br>나도 예쁘게 예쁘게<br>행복하게 살고 싶은데<br>괜찮아 괜찮아 그냥 괜찮아<br>주위를 둘러보니 시간이<br>나만 빼고 빨리 흘러서<br>무서워져 나만 너무 느려<br>느림보 같아서<br>뭔가를 해내야 해 다짐에<br>다짐이 날 너무 눌러서<br>숨이 막혀 워 어 너무도 무거워<br>나만 빼고 모두 행복하게 살아 가나 봐<br>나만 혼자 외로운 집에 혼자 있나 봐<br>하늘 보면 깜깜하고 땅은 불안한 가봐<br>웃으면서 나를 잡아줄 수 있는 누군가<br>나는 아프게 아프게<br>쓰러져있기가 싫은데<br>매일 나쁘게 나쁘게<br>나를 보채고 보채는데<br>나도 예쁘게 예쁘게<br>행복하게 살고 싶은데<br>괜찮아 괜찮아 그냥 괜찮아<br>정말 괜찮아 괜찮아<br>괜찮아 질 수만 있다면<br>백번 천번도 만번도<br>외쳐 소리 질러 볼텐데",
+            "albumImage": "seenroot_color.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=31180581"
+        },
+        "ISFJ": {
+            "title": "No Worry",
+            "singer": "신현희와김루트",
+            "videoCode": "1r42zcWhvEE",
+            "videoStart": 36,
+            "lyricHighlight": "No Worry 너무 걱정 마<br>No Worry 좋은 하루가<br>Sunshine 이제 시작해<br>두려워하지마<br>날개를 펴고<br>더 크게 외쳐봐",
+            "lyric": "Sorry<br>외로운 날들 안녕<br>So Sorry<br>몰래 울었던 날들도<br>겁이나 괜히 움츠린 마음<br>용기를 내 날아봐<br>이제 가벼움 맘으로<br>i'm so fine i'm so fine<br>잘 될 거야 잘 될 거야<br>나를 믿고 환희 웃어줘<br>No Worry<br>너무 걱정 마<br>No Worry<br>좋은 하루가<br>Sunshine<br>이제 시작해<br>두려워하지마<br>날개를 펴고<br>더 크게 외쳐봐<br>내 맘처럼 되는 일 없어<br>내 꿈 고개 숙여 포기했어<br>날 보는 걱정스러운 눈빛<br>많이 외로워했던<br>지난 내 모습 잊을래<br>i'm so fine i'm so fine<br>잘 될 거야 잘 될 거야<br>나를 믿고 환희 웃어줘<br>No Worry<br>너무 걱정 마<br>No Worry<br>좋은 하루가<br>Sunshine<br>이제 시작해<br>두려워하지마<br>날개를 펴고<br>더 크게 외쳐봐<br>때론 힘들어<br>눈물이 나도<br>고개 들어<br>하늘 위에 꿈을 봐<br>잠시 쉬어가 젊은 날들이<br>포기하지마 너의 꿈들이<br>나의 품에 안길 테니까<br>잘 될 거야<br>너무 걱정 마<br>넌 될 거야<br>우리 좋은 하루가<br>sunshine<br>이제 시작해<br>두려워하지마<br>날개를 펴고<br>더 크게 외쳐봐<br>I'm so fine baby no worry<br>I'm so fine baby no worry<br>I'm so fine baby no worry<br>I'm so fine baby no worry<br>I'm so fine baby no worry<br>I'm so fine baby no worry<br>너무 걱정은 마<br>잘 될 거야",
+            "albumImage": "seenroot_noworry.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=30205637"
+        },
+        "ISFP": {
+            "title": "인연이란게 원래 그냥 그래",
+            "singer": "신현희와김루트",
+            "videoCode": "3oQ4cuJFaPE",
+            "videoStart": 58,
+            "lyricHighlight": "인연이란게 원래 그냥 그래<br>사랑하고 싶어도<br>사랑할 수가 없는 것이기에<br>인연이란게 원래 그래",
+            "lyric": "우린 어떤 사이일까<br>무슨 관계일까 생각해봐도<br>우린 과연 운명일까<br>아님 장난일까 되내어봐도<br>운명이라면 잘 될거야<br>아니면 어쩔 수가 없잖아<br>그게 운명이고 장난이든<br>상관할 일은 아니잖아<br>사랑하고 싶어 사랑하고 싶다<br>사랑하고 싶었어<br>그냥 아무에게 고백할까<br>그런 고민도 해봤었지<br>하지만 무슨 소용일까 다<br>쓸데없는 고민이잖아<br>마음만 애태우다 그냥<br>꺼져버릴 걸 알고 있잖아<br>인연이란게 원래 그냥 그래<br>인연이란게 원래 그냥 그래<br>사랑하고 싶어도<br>사랑할 수가 없는 것이기에<br>인연이란게 원래 그래<br>지하철을 기다리는 너에게<br>말을 걸어볼까 하고<br>아님 길을 걷고있는 너에게<br>말을 걸어볼까 하고<br>하지만 무슨 소용일까 다<br>쓸데없는 고민이잖아<br>마음만 애태우다 그냥<br>꺼져버릴 걸 알고 있잖아<br>우린 어떤 사이 말로 표현 못해도<br>느낌만으로도 알 수 있는 거잖아<br>아무 말도 안 해 그렇게<br>오늘도 오 스쳐 지나갈 뿐야<br>인연이란게 원래 그냥 그래<br>인연이란게 원래 그냥 그래<br>사랑하고 싶어도<br>사랑할 수가 없는 것이기에<br>인연이란게 원래 그래<br>인연이란게 원래 그냥 그래<br>인연이란게 원래 그냥 그래<br>사랑하고 싶어도<br>사랑할 수가 없는 것이기에<br>인연이란게 원래 그래<br>인연이란게 원래 그냥 그래<br>인연이란게 원래 그냥 그래<br>사랑하고 싶어도<br>사랑할 수가 없는 것이기에<br>인연이란게 원래 그래<br>인연이란게 원래 그래",
+            "albumImage": "seenroot_strange.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=8226715"
+        },
+        "INTJ": {
+            "title": "집",
+            "singer": "신현희와김루트",
+            "videoCode": "HOJrjeAQsKo",
+            "videoStart": 55,
+            "lyricHighlight": "나는 떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>모르겠 모르겠네",
+            "lyric": "나는 떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>모르겠 모르겠네<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>정말 모르겠네<br>나는 떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>모르겠 모르겠네<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>정말 모르겠네<br>엄마도 아빠도 안녕<br>동생도 강아지도 안녕<br>곧 있음 돌아올테니<br>내가 정말 잘 해줄테니 딱 기다려<br>학교도 내 집도 안녕<br>친구들 언니 오빠 안녕<br>곧 있음 유명해질테니<br>내가 자랑스러워질게 기다려<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>모르겠 모르겠네<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>정말 모르겠네<br>스무살의 소녀의 어린 아이의<br>아무 것도 몰라서<br>아픈 줄도 모르고<br>계속 달리다<br>어른이 되어가는걸까<br>점점 어깨가 세상이 무거워지고<br>머리가 너무 아프고<br>지금 난 울고만 싶어<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>모르겠 모르겠네<br>떠나왔네 집을<br>나는 걸어가네 길을<br>이젠 어디가지 나는 모르겠<br>정말 모르겠네",
+            "albumImage": "seenroot_strange.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=8226720"
+        },
+        "INTP": {
+            "title": "아이",
+            "singer": "신현희와김루트",
+            "videoCode": "pw0zi_n1kgU",
+            "videoStart": 98,
+            "lyricHighlight": "난 아인가봐 난 아픈가봐<br>난 너무나 여린가봐<br>어쩌면 난 외로운가봐<br>어쩌면 난 혼자인가봐<br>어쩌면 나는 너무나도<br>겁이 나나봐",
+            "lyric": "흘러간 시간을<br>손으로 잡을 수 없어<br>내뱉은 말을 주워 담을 수도 없어<br>매일을 그렇게 후회하고<br>야속한 시간은 흘러가고<br>그렇게 그렇게 어른이 되는구나<br>영원할 것 같던 사랑도 끝이 나고<br>먹지 못 하던 술을<br>어느새 먹고 있고<br>어릴 적 친구들 소식이<br>들리지 않고<br>매일 밤 이유 모를 눈물을 삼킨다<br>난 아인가봐 난 아픈가봐<br>난 너무나 여린가봐<br>어쩌면 난 외로운가봐<br>어쩌면 난 혼자인가봐<br>어쩌면 나는 너무나도<br>겁이 나나봐<br>늦은 밤 좁은 방 한 구석에 웅크려<br>흐느껴 울고있어<br>언제나 나 혼자<br>오늘도 이렇게<br>울다 지쳐 잠들어버리곤<br>내일은 또 잊은 채 살아가지<br>난 아인가봐 난 아픈가봐<br>난 너무나 여린가봐<br>어쩌면 난 외로운가봐<br>어쩌면 난 혼자인가봐<br>어쩌면 나는 너무나도<br>겁이 나나봐",
+            "albumImage": "seenroot_strange.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=8226718"
+        },
+        "INFJ": {
+            "title": "7시 내 골목",
+            "singer": "신현희",
+            "videoCode": "K31t2Y1AvE4",
+            "videoStart": 1,
+            "lyricHighlight": "설레임 속 그 향기<br>맑은 표정 이 가득해 머물고 싶더라<br>이 가득해 머물고 싶더라<br>오래도록 품었던<br>잠시 잊었던 기억들<br>아련한 추억 담아 갈래",
+            "lyric": "설레임 속 그 향기<br>맑은 표정 이 가득해 머물고 싶더라<br>이 가득해 머물고 싶더라<br>오래도록 품었던<br>잠시 잊었던 기억들<br>아련한 추억 담아 갈래<br>정신없이 친구들과 뛰놀다<br>노을이 내려오면<br>골목마다 퍼지는 저녁 잔소리<br>어두워질수록<br>짓궂은 숨바꼭질 놀이가<br>너무 아쉬워져<br>다 같이 외쳐보자<br>조금만 더 놀래<br>그리운 고향 아름다운 그 고양<br>잔잔한 구름처럼 예쁜 호수<br>가을이 비춰지고<br>어느새 훌쩍 자란 친구와 동네<br>매일 우리와 같이 놀던<br>키다리 전봇대<br>친구네 집 담장도<br>항상 날 반겨주네 소중한 내 꿈도<br>간직해줄래 아름다운 내 고향<br>쉬운 일 이란 없다고<br>사람들은 변한다고<br>꿈은 그저 꿈이라고<br>말하지 그래도 난 괜찮아<br>여기서 숨 쉬는 지금 이 순간<br>너무너무 행복해<br>정신없이 친구들과 뛰놀다<br>노을이 내려오면<br>골목마다 퍼지는 저녁 잔소리<br>어두워질수록<br>짓궂은 숨바꼭질 놀이가<br>너무 아쉬워져<br>다 같이 외쳐보자 조금만 더 놀래<br>그리운 고향 아름다운 그 고양",
+            "albumImage": "seen_7h.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=31480408"
+        },
+        "INFP": {
+            "title": "편한노래",
+            "singer": "신현희와김루트",
+            "videoCode": "S57xP-kvYWU",
+            "videoStart": 69,
+            "lyricHighlight": "편한 옷에 편한 얼굴<br>편한 마음가짐<br>편한 친구 편한 장소<br>편한 노래까지<br>편한 웃음 편한 시간<br>편한 이순간에 나는 살아있다",
+            "lyric": "일어나 일어나 소리에 나 잠 깨고<br>휴대폰 벨소리에 나 전화를 받아<br>지금 너 뭐해 나 심심한데<br>나올래 라는 말에<br>음 나 머리도 안 감았고<br>음 나 화장도 안했지만<br>음 나 주머니 속 지폐 몇 장에<br>음 나 기타를 챙긴다<br>편한 옷에 편한 얼굴<br>편한 마음가짐<br>편한 친구 편한 장소<br>편한 노래까지<br>편한 웃음 편한 시간<br>편한 이순간에 나는 살아있다<br>내가 좋아하는 녹차라떼<br>사먹으려 했더니<br>잔액이 없대 없대<br>이런저런 얘길 하다보니<br>별거 아닌데도 괜히 웃음이<br>음 나 머리도 안 감았고<br>음 나 화장도 안했지만<br>음 나 주머니 속 지폐 몇 장에<br>음 나 기타를 챙긴다<br>편한 옷에 편한 얼굴<br>편한 마음가짐<br>편한 친구 편한 장소<br>편한 노래까지<br>편한 웃음 편한 시간<br>편한 이순간에 나는 살아있다",
+            "albumImage": "seenroot.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=5605863"
+        },
+        "ESTJ": {
+            "title": "오빠야",
+            "singer": "신현희와김루트",
+            "videoCode": "KzKm2NnKW6w",
+            "videoStart": 55,
+            "lyricHighlight": "나는 너를 좋아하고<br>너를 좋아하고 너도<br>나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요",
+            "lyric": "오빠야<br>내가 진짜 좋아하는 사람이<br>생겨서 혼자 끙끙<br>앓다가 죽어버릴 것만 같아서<br>얘기를 한다<br>눈 앞에 아른아른거리는<br>잘생긴 얼굴 자꾸<br>귀에 맴도는 그의<br>촉촉한 목소리 예<br>네가 좋아하는 그 남자<br>도대체 누구길래<br>이렇게나 들뜬 거니<br>얼굴은 어떻게 생겼는지<br>무슨 일을 하는지<br>나는 너무나 궁금해<br>나는 너를 좋아하고<br>너를 좋아하고 너도<br>나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>말을 하면 멀어질까 너무 두려워<br>너를 잃기가 나는 너무 무서워<br>말을 하면 멀어질까 너무 두려워<br>너를 잃기가 나는 너무 무서워 예<br>좋아하는 마음에 떨리는 날들에<br>더 없이 덧없이 마음이 커지고<br>두근대는 마음에 설레는 날들에<br>난 헤어 나올 수 없어<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요<br>나는 너를 좋아하고<br>너를 좋아하고<br>너도 나를 좋아하고<br>나를 좋아하고<br>우린 서로 좋아하는데도<br>그 누구도 말을 안 해요",
+            "albumImage": "seenroot.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=5605860"
+        },
+        "ESTP": {
+            "title": "집비던날",
+            "singer": "신현희와김루트",
+            "videoCode": "BTsy1VWx6mM",
+            "videoStart": 36,
+            "lyricHighlight": "어떻게 된 일인지<br>집에 아무도 없네<br>갑자기 두근두근 미친 듯 설레네<br>어젯밤 엄마의 말씀<br>아빠랑 여행 간 댔지<br>자 이제 내 시간이야",
+            "lyric": "어떻게 된 일인지<br>집에 아무도 없네<br>갑자기 두근두근 미친 듯 설레네<br>어젯밤 엄마의 말씀<br>아빠랑 여행 간 댔지<br>자 이제 내 시간이야<br>아 뭐부터 해야 할지<br>고민 고민 하다가<br>친구들에게 급히 전화를 해<br>오늘은 우리가 놀아야 하는 날<br>오늘은 내가 다 쏜다<br>울랄라 삐빠라삐빠<br>음악을 크게 틀어 놓고<br>울랄라 삐빠라삐빠<br>배가 터질 듯 먹고<br>울랄라 삐빠라삐빠<br>잘 생각은 말고<br>울랄라 삐빠라삐빠<br>밤새 나와 함께<br>해이예이예이예이예이예이예<br>예이예이예이예이예이예이예<br>하나 둘씩 모여드는 나의 집<br>음악도 좋고 조명도 좋은데<br>내일이 되면 깨어질<br>이 설렘이 걱정 되지만<br>아 몰라 내일 일은 내일에<br>울랄라 삐빠라삐빠<br>음악을 크게 틀어 놓고<br>울랄라 삐빠라삐빠<br>배가 터질 듯 먹고<br>울랄라 삐빠라삐빠<br>잘 생각은 말고<br>울랄라 삐빠라삐빠<br>밤새 나와 함께<br>해이예이예이예이예이예이예<br>예이예이예이예이예이예이예<br>울랄라 삐빠라삐빠<br>음악을 크게 틀어 놓고<br>울랄라 삐빠라삐빠<br>배가 터질 듯 먹고<br>울랄라 삐빠라삐빠<br>잘 생각은 말고<br>울랄라 삐빠라삐빠<br>밤새 나와 함께<br>울랄라 삐빠라삐빠<br>울랄라 삐빠라삐빠<br>예이예이예이예이예이예이예<br>예이예이예이예이예이예이예<br>예이예이예이예이예이예이예<br>예이예이예이예이예이예이예",
+            "albumImage": "seenroot.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=5605862"
+        },
+        "ESFJ": {
+            "title": "같이 같이",
+            "singer": "신현희와김루트",
+            "videoCode": "5mNOnnEKmhM",
+            "videoStart": 70,
+            "lyricHighlight": "같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자",
+            "lyric": "나는 걷는 걸 좋아해<br>오래 걷는 건 싫지만<br>나는 뛰는 것도 좋아해<br>하지만 오래 뛰는 건 싫어<br>나는 음 하고 꽃 향기 맡는걸 좋아해<br>아주 좋아해<br>나는 아 하고 대답하는걸 좋아해<br>나는 그래<br>따라라 따따따 따라라 따따따<br>따라라 따따따 따라라라라라라<br>나도 걷는 걸 좋아해<br>진짜요<br>다리 아픈 건 싫지만<br>아 그건 그래요<br>나도 뛰는 것도 좋아해<br>아 진짜요<br>오래 달리기는 싫지만<br>그건 맞아요<br>나도 음 음 하고 꽃 향기<br>맡는 걸 좋아해 많인 아니고<br>나는 아 아 하고 대답한 적이 있었나<br>아 있나요<br>모르겠다<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>따라라 따따따 따라라 따따따<br>따라라 따따따 따라라라라라라<br>그냥 킁킁킁킁 풀내음에<br>그냥 고개 들어 하하하하 하늘을 봐<br>우리 총총총총 걷다 보면<br>회색 아닌 푸른숲이 나올 거래<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>같이 같이 같이 푸른 숲을 지나<br>여기 여기 여기 손을 잡고 걷자<br>같이 같이 같이 예쁜 꽃을 보며<br>우리 우리 우리 손을 잡고 걷자<br>따라라 따따따 따라라 따따따<br>따라라 따따따<br>따라라 따따따 따라라 따따따<br>따라라 따따따",
+            "albumImage": "seenroot_together.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=30588712"
+        },
+        "ESFP": {
+            "title": "다이하드",
+            "singer": "신현희와김루트",
+            "videoCode": "X9-LQ3rxpFM",
+            "videoStart": 27,
+            "lyricHighlight": "스트레스가 빵 터지고<br>눈물이 쏙 날 것 같은 날에<br>나 생각을 했어<br>만약에 만약에<br>내 목숨이 두 개라면 무얼<br>가장 먼저 하고 싶을까",
+            "lyric": "스트레스가 빵 터지고<br>눈물이 쏙 날 것 같은 날에<br>나 생각을 했어<br>만약에 만약에<br>내 목숨이 두 개라면 무얼<br>가장 먼저 하고 싶을까<br>내 목숨이 두 개라면<br>활화산에서 반신욕을<br>내 목숨이 두 개라면<br>나룻배를 타고 버뮤다로<br>내 목숨이 두 개라면<br>사하라에서 찜질파티<br>내 목숨이 두 개라면<br>내 목숨이 두 개라면<br>마포대교를 걸어봐도<br>엄마의 문자를 보아도<br>나 살 맛이 안 나<br>편한 노래를 들어봐도<br>달달한 음식을 먹어도<br>나아지지 않아<br>두려워서 해보지<br>못 했던 거<br>현실에 부딪쳐서<br>도전하지 못 한 거<br>눈치 보다가<br>놓쳐 버렸던 거<br>울화통 터지지만<br>다 참아버렸던 거<br>내 목숨이 두 개라면<br>활화산에서 반신욕을<br>내 목숨이 두 개라면<br>나룻배를 타고 버뮤다로<br>내 목숨이 두 개라면<br>사하라에서 찜질파티<br>내 목숨이 두 개라면<br>내 목숨이 두 개라면<br>내 목숨이 목숨이 목숨이<br>목숨이 목숨이<br>두 개라면<br>내 목숨이 목숨이 목숨이<br>목숨이 목숨이<br>두 개라면<br>내 목숨이 목숨이 목숨이<br>목숨이 목숨이<br>두 개라면<br>내 목숨이 두 개라면<br>내 목숨이 두 개라면",
+            "albumImage": "seenroot_diehard.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=30155896"
+        },
+        "ENTJ": {
+            "title": "그 와 나",
+            "singer": "신현희와김루트",
+            "videoCode": "P68K42gGO8Q",
+            "videoStart": 47,
+            "lyricHighlight": "룰루랄라 노래하며<br>내가 너의 손을 잡고<br>넌 싱글싱글 웃으면서<br>나를 바라보고 있고<br>우리 걷는 걸음걸음 길목마다<br>아름답게 흩날리는 꽃잎<br>소복소복 쌓인 눈도<br>우린 같이 걷게 되고",
+            "lyric": "구름 뒤에 숨어서<br>너를 훔쳐보고 있는 나 같아<br>너는 눈치 못 채고<br>나 혼자 안달 난 것만 같아<br>우린 어떻게 될까요<br>내가 너를 사귀게 될까요<br>우리 손을 잡고 걸을 날이 올까요<br>룰루랄라 노래하며<br>내가 너의 손을 잡고<br>넌 싱글싱글 웃으면서<br>나를 바라보고 있고<br>우리 걷는 걸음걸음 길목마다<br>아름답게 흩날리는 꽃잎<br>소복소복 쌓인 눈도<br>우린 같이 걷게 되고<br>쨍쨍 내리쬐는 햇살 모두<br>우릴 행복하게 하고<br>매일매일 꿈만 같은<br>하루하루가 되겠죠<br>나는 아직 몰라 너를<br>혹시 너는 아니 나를<br>나는 두근두근 오늘<br>네게 말해줄래 맘을<br>나는 아직 몰라 너를<br>혹시 너는 아니 나를<br>나는 두근두근 오늘<br>네게 말해줄래 내 맘을<br>내가 너의 손을 잡고<br>나를 바라보고 있고<br>길목마다 아름답게 흩날리는 꽃잎<br>소복소복 쌓인 눈도<br>우린 같이 걷게 되고<br>쨍쨍 내리쬐는 햇살 모두<br>우릴 행복하게 하고<br>매일매일 꿈만 같은<br>하루하루가 되겠죠<br>룰루랄라 노래하며<br>내가 너의 손을 잡고<br>넌 싱글싱글 웃으면서<br>나를 바라보고 있고<br>우리 걷는 걸음걸음 길목마다<br>아름답게 흩날리는 꽃잎<br>소복소복 쌓인 눈도<br>우린 같이 걷게 되고<br>쨍쨍 내리쬐는 햇살 모두<br>우릴 행복하게 하고<br>매일매일 꿈만 같은<br>하루하루가 되겠죠",
+            "albumImage": "seenroot_strange.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=8226716"
+        },
+        "ENTP": {
+            "title": "알콩달콩",
+            "singer": "신현희와김루트",
+            "videoCode": "OuMkiriqXAI",
+            "videoStart": 72,
+            "lyricHighlight": "바보처럼 가만히 있다<br>가마니 되긴 싫어<br>눈물 나게 가슴 아프다<br>쓰러져 있긴 싫어<br>매일매일 생각해<br>너와 내가 손을 잡는일<br>내일은 내일은 꼭 말할래",
+            "lyric": "내가 구름이라면 너는 하늘같아<br>라라라라라라라<br>내가 저 파도라면 너는 바다같아<br>라라라라라라라<br>내가 꽃이라면 너는 벌 나비같아<br>라라라라라<br>이렇게 너를 좋아하는<br>이 예쁜 마음이 난 라라라라라<br>가만가만 있다 끝날지 몰라<br>사라져버려<br>두근두근 대다 끝날지 몰라<br>그건 너무 싫어<br>바보처럼 가만히 있다<br>가마니 되긴 싫어<br>눈물나게 가슴 아프다<br>쓰러져 있긴 싫어<br>매일매일 생각해<br>너와 내가 손을 잡는 일<br>내일은 내일은 꼭 말할래<br>가만가만 있다 끝날지 몰라<br>사라져버려<br>두근두근 대다 끝날지 몰라<br>그건 너무 싫어<br>손이 덜덜덜 눈은 어딜둬야 할지<br>맘이 콩콩콩 나는 어떡해야 할지<br>손이 덜덜덜 눈은 어딜둬야 할지<br>맘이 콩콩콩 나는 어떡해야 할지<br>바보처럼 가만히 있다<br>가마니 되긴 싫어<br>눈물 나게 가슴 아프다<br>쓰러져 있긴 싫어<br>매일매일 생각해<br>너와 내가 손을 잡는일<br>내일은 내일은 꼭 말할래<br>바보처럼 가만히 있다<br>가마니 되긴 싫어<br>눈물 나게 가슴 아프다<br>쓰러져 있긴 싫어<br>너와 내가 눈을 맞추고<br>두손을 꼭 잡는일<br>내일은 내일은 내일은<br>내일은 꼭 말할래",
+            "albumImage": "seenroot_color.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=31180579"
+        },
+        "ENFJ": {
+            "title": "무드매 (movie! dream! magic!)",
+            "singer": "신현희",
+            "videoCode": "e3zNLoGzot4",
+            "videoStart": 78,
+            "lyricHighlight": "오늘 오늘이야 좋아해 널 좋아해<br>예쁜 이 말로 네게 마음 다 전하는 날<br>오늘 오늘일까 내가 네 마음속에<br>빤짝빤짝 거리는 빛이 될 수 있는 날",
+            "lyric": "기묘한 꿈을 꾸었어<br>내가 혼자 걷다 누군갈 만나<br>이상한 꿈을 꾸었어<br>그 사람 얼굴이 내가 아는 사람<br>꿈에 그린 넌 내 앞에<br>나를 바라보고 있어 날 쳐다보고 있어<br>꿈에 그린 넌 내 앞에<br>나를 보고 웃고 있어 가까워지고 있어<br>손대지 마 깨질 거 같단 말야<br>말하지 마 가짜면 어떡해<br>눈 감지 마 사라질까 무서워<br>말하지 마 말하지 마<br>오늘 오늘이야 좋아해 널 좋아해<br>예쁜 이 말로 네게 마음 다 전하는 날<br>오늘 오늘일까 내가 네 마음속에<br>빤짝빤짝 거리는 빛이 될 수 있는 날<br>오 오 오 오 오늘이야<br>오 오 오 오 오늘이야<br>오 오 오 오 오늘이야<br>오 오 오 오 오<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>오늘 오늘이야 좋아해 진짜 진짜<br>콩콩 네 맘 두드려 이 말을 꼭 할 거야<br>오늘 오늘만은 내가 네 마음속에<br>빤짝빤짝 거리는 빛이 되고 말 거야<br>오 오 오 오 오늘이야<br>오 오 오 오 오늘이야<br>오 오 오 오 오늘이야<br>오 오 오 오 오<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming<br>내 앞에 나타난 movie scene<br>지금 여기 이곳은 not dreaming",
+            "albumImage": "seen_mdm.jpg",
+            "melonLink": "https://www.melon.com/album/detail.htm?albumId=10315140"
+        },
+        "ENFP": {
+            "title": "PARADISE",
+            "singer": "신현희와김루트",
+            "videoCode": "zzxxGdLxH40",
+            "videoStart": 82,
+            "lyricHighlight": "어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 재밌을 꺼니까<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 그곳이 파라다이스",
+            "lyric": "따따따따따 따따따따따 따따따따따<br>따따따따따라따<br>따따따따따 따따따따따 따<br>따따따따따 따따따따따 따따따따따<br>따따따따따라따<br>따따따따따 따따따따따 따<br>언제였나 내가 네게 말을 했지<br>내가 네게 이런 말을 했었지<br>지금 지금 너무나 지루하다고<br>지금 지금 매일이 똑 같다고<br>그럼 니가 내게 말을 했지<br>니가 내게 이런 말을 했었지<br>어디로든 그냥 그냥 떠나보자고<br>어디로든 여길 벗어나자고<br>난 조금 겁이 많아서<br>난 지금 할 일이 많아서<br>괜찮을까 싶긴해<br>난 조금 겁이 많아도<br>난 지금 할 일이 많아도<br>몰라 따라가볼래<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 재밌을 꺼니까<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 그곳이 파라다이스<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Paradise paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Paradise paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Paradise paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Anywhere Everywhere paradise<br>Paradise paradise<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 그곳이 파라다이스<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 재밌을 꺼니까<br>어디 어디든 같이 가볼까<br>우리 손잡고 내가 이끄는 대로<br>어디든 좋아 그곳이 파라다이스",
+            "albumImage": "seenroot_color.jpg",
+            "melonLink": "https://www.melon.com/song/detail.htm?songId=31180580"
+        }
+    }
+}
