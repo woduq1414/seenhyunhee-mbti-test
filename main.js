@@ -349,10 +349,10 @@ $(function () {
 
     $("#mbtiResult").hide();
 
-    $(".q").fadeOut(1000);
-    $(".testProgress").fadeOut(1000);
-    $(".progressNum").fadeOut(1000);
-    $(".n").fadeIn(1000);
+    // $(".q").fadeOut(1000);
+    // $(".testProgress").fadeOut(1000);
+    // $(".progressNum").fadeOut(1000);
+    // $(".n").fadeIn(1000);
 
 
 
@@ -401,7 +401,7 @@ $(function () {
         (t >= 2) ? mbti += "T" : mbti += "F";
         (j >= 2) ? mbti += "J" : mbti += "P";
 
-        mbti = "ENTP";
+        // mbti = "ENTP";
 
         console.log(mbti);
         $(".n").fadeOut(1000);
