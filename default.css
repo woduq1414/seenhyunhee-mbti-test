@@ -29,6 +29,11 @@ a {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+
 body {
     /*전체 배경색 */
     background-color: #181818;

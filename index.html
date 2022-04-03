@@ -8,6 +8,7 @@
     <title>신혀니 MBTI</title>
     <!-- <script src="https://kit.fontawesome.com/c4819c3a60.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="/default.css">
+    <link rel="stylesheet" href="/loader.css">
     <link rel="stylesheet" href="/progressbar.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -21,25 +22,35 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script type="text/javascript" src="/main.js"></script>
 
-    <meta property="og:title" content="신현희 MBTI 테스트" /> 
-    <meta property="og:description" content="당신과 어울리는 가수 신현희의 곡은?" /> 
-    <meta property="og:type" content="website" /> 
-    <meta property="og:url" content="https://seenhyunhee.netlify.app/" /> 
-    <meta property="og:image"
-        content="https://seenhyunhee.netlify.app/albums/seen_mdm.jpg" />
+
+    <meta property="og:title" content="신현희 MBTI 테스트" />
+    <meta property="og:description" content="당신과 어울리는 가수 신현희의 곡은?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seenhyunhee.netlify.app/" />
+    <meta property="og:image" content="https://seenhyunhee.netlify.app/albums/seen_mdm.jpg" />
 
 
 
 </head>
 
 <body>
-    <div class="testProgress">
+
+
+    <div class="loadingio-spinner-pulse-9x0hiirfixh loader">
+        <div class="ldio-5h3vy09ezp9">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <div class="testProgress hidden">
         <div class="bar"></div>
     </div>
-    <p class="progressNum"><span>0</span> / 12</p>
-    <ul class="q">
+    <p class="progressNum hidden"><span>0</span> / 12</p>
+    <ul class="q hidden">
 
         <li class="now">
             <h2>신현희 MBTI 테스트</h2>
@@ -60,9 +71,9 @@
         </li>
         <li>
             <h2>Q2.</h2>
-            <h3>공부하고 <br>싶어지는 공간은?</h3>
-            <button class="A e defaultButton">친구와 자유롭게 대화 가능한 곳</button>
-            <button class="B defaultButton">모두다 쉿! 조용한 곳</button>
+            <h3>음악은..</h3>
+            <button class="A e defaultButton">콘서트나 페스티벌에 가서 들어야지!</button>
+            <button class="B defaultButton">집에서 무드있게 들을래!</button>
         </li>
         <li>
             <h2>Q3.</h2>
@@ -72,9 +83,9 @@
         </li>
         <li>
             <h2>Q4.</h2>
-            <h3>'사과'하면 <br>떠오르는 것은?</h3>
-            <button class="A s defaultButton">빨갛다, 둥글다, 맛있다</button>
-            <button class="B defaultButton">마녀가 백설공주에게 준 사과,<br>나라면 그 사과를 먹었을까</button>
+            <h3>새로운 노래를 들을 때<br>나는..</h3>
+            <button class="A s defaultButton">신곡 멜로디 좋은데?</button>
+            <button class="B defaultButton">가사를 이해해보려고 노력한다</button>
         </li>
         <li>
             <h2>Q5.</h2>
@@ -96,8 +107,8 @@
         </li>
         <li>
             <h2>Q8.</h2>
-            <h3>친구랑 전화하는데, <br>친구가 우울해서 <br>치킨 시켰다고 한다. <br>당신의 반응은?</h3>
-            <button class="A t defaultButton">무슨 치킨 시켰는데?</button>
+            <h3>친구가 '우울할 때<br>들을 노래 추천해줘' 라고<br>할 때 당신의 반응은?</h3>
+            <button class="A t defaultButton">나만 아는 명곡을 추천해준다</button>
             <button class="B defaultButton">왜 그래ㅠㅠ 무슨 일 있어???</button>
         </li>
         <li>
@@ -114,9 +125,9 @@
         </li>
         <li>
             <h2>Q11.</h2>
-            <h3>당신이 더 가고 싶은 <br>회사는?</h3>
-            <button class="A j defaultButton">일하는 곳이니까 체계적인 회사!</button>
-            <button class="B defaultButton">자유로운 분위기의 회사!</button>
+            <h3>여행을 왔는데<br>친구가 근처 버스킹을<br>보러가자고 한다면..</h3>
+            <button class="A j defaultButton">아 계획 틀어지는데..</button>
+            <button class="B defaultButton">당장 가자!!</button>
         </li>
         <li>
             <h2>Q12.</h2>
@@ -245,7 +256,7 @@
             <!-- <h1 id="songTitle"></h1> -->
         </li>
     </ul>
-
+    <script type="text/javascript" src="/main.js"></script>
 </body>
 
 
