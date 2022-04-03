@@ -355,6 +355,10 @@ $(function () {
     // $(".n").fadeIn(1000);
 
 
+    $("#goListPageButton").on("click", function(){
+        
+    });
+
 
     $(".q button").on("click", function () {
 

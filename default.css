@@ -194,7 +194,13 @@ span {
     margin-top: 4px;
 }
 
-
+h6 {
+    color: gainsboro;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: 200;
+}
 
 
 li button {
@@ -217,6 +223,11 @@ li button {
 li button.start {
     margin-top: 50px;
 }
+
+.goListPageButton {
+    margin-top: 1.0rem;
+}
+
 
 button.A {
     margin-top: 30px;
