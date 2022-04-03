@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 
+/* html {
+    bac
+
+} */
+
+
 *::-webkit-scrollbar-thumb {
     background-color: #b6b6b6;
     border-radius: 100px;
@@ -25,14 +31,14 @@ a {
 
 body {
     /*전체 배경색 */
-    background-color: rgb(248, 248, 248);
+    background-color: #181818;
     position: relative;
 }
 
 ul {
     list-style-type: none;
     width: 100%;
-    height:calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 100);
 
     position: absolute;
     top: 0;
@@ -75,7 +81,7 @@ ul>li {
     padding: 60px 20px;
     border-radius: 30px;
     /* border: 1px solid #000000; */
-    background-color: rgb(37, 37, 37);
+    background-color: #454545;
 
 
 
@@ -217,7 +223,7 @@ button.A {
     margin-bottom: 20px;
 }
 
-.progress {
+.testProgress {
     /*상단 바 스타일 설정 */
     position: absolute;
     top: 4vh;
@@ -234,7 +240,7 @@ button.A {
     transform: translateX(-50%);
 }
 
-.progress, .progressNum {
+.testProgress, .progressNum {
     z-index: 100;
 }
 
@@ -270,7 +276,7 @@ button.C {
 }
 
 ul.q, ul.n {
-    background-color: #121212;
+    background-color: #232323;
 }
 
 
@@ -282,7 +288,38 @@ ul.q, ul.n {
     align-items: center;
     justify-content: center;
     height: 80%;
+    animation: AnimateBG 6s ease infinite;
+    background-size: 200% 200%;
+    /* background-position: 50% 50%; */
 }
+
+/* @keyframes AnimateBG {
+    0% {
+        background-position: 33% 33%
+    }
+
+    50% {
+        background-position: 45% 45%
+    }
+
+    100% {
+        background-position: 33% 33%
+    }
+} */
+
+@-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 10%;
+    }
+    50% {
+      background-position: 60% 60%;
+    }
+    100% {
+      background-position: 0% 10%;
+    }
+  }
+
+
 
 img#albumImage {
     width: 80%;
@@ -305,7 +342,7 @@ ul.a {
     list-style-type: none;
     width: 100%;
     /* height: 100vh !i/mportant; */
-    height:calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 100);
     position: absolute;
     top: 0;
     max-width: 500px;
@@ -347,11 +384,27 @@ ul.a {
     top: 20px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 90%;
 
     align-items: center;
 }
+
+#topSongInfo {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    align-items: center;
+}
+
+#bottomSongInfo {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+
 
 
 
@@ -397,10 +450,20 @@ ul.a {
 
 #lyricInside, #lyricAll {
     padding: 0.5rem 1rem;
-    max-height: 300px;
+    max-height: 270px;
     overflow-y: auto;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 780px) {
+    #lyricInside, #lyricAll {
+        max-height: 180px;
+
+    }
+
+}
+
 
 #lyricType {
     font-size: 0.8rem;

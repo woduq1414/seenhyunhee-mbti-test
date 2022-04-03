@@ -8,6 +8,7 @@
     <title>신혀니 MBTI</title>
     <!-- <script src="https://kit.fontawesome.com/c4819c3a60.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="/default.css">
+    <link rel="stylesheet" href="/progressbar.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -24,7 +25,7 @@
 </head>
 
 <body>
-    <div class="progress">
+    <div class="testProgress">
         <div class="bar"></div>
     </div>
     <p class="progressNum"><span>0</span> / 12</p>
@@ -118,34 +119,49 @@
             <h2>신현희 MBTI 테스트</h2>
             <h3>모든 답변 완료!</h3>
             <button class="C defaultButton">당신에게 어울리는 가수 신현희의 노래는?</button>
-       </li>
+        </li>
     </ul>
     <ul class="a">
         <li class="now" id="resultWrapper">
 
             <div id="upperSongInfo">
-                <img src="" id="albumImageSmall" class="hidden">
-                <div id="rightSongInfo">
-                    <div id="songTitleInfo" class="hidden"></div>
-                    <div id="songSingerInfo" class="hidden"></div>
+                <div id="topSongInfo">
+                    <img src="" id="albumImageSmall" class="hidden">
+                    <div id="rightSongInfo">
+                        <div id="songTitleInfo" class="hidden"></div>
+                        <div id="songSingerInfo" class="hidden"></div>
+                    </div>
+                    <div id="equaliser" class="equaliser-container hidden">
+                        <ol class="equaliser-column">
+                            <li class="colour-bar"></li>
+                        </ol>
+                        <ol class="equaliser-column">
+                            <li class="colour-bar"></li>
+                        </ol>
+                        <ol class="equaliser-column">
+                            <li class="colour-bar"></li>
+                        </ol>
+                        <ol class="equaliser-column">
+                            <li class="colour-bar"></li>
+                        </ol>
+                        <ol class="equaliser-column">
+                            <li class="colour-bar"></li>
+                        </ol>
+                    </div>
                 </div>
-                <div id="equaliser" class="equaliser-container hidden">
-                    <ol class="equaliser-column">
-                        <li class="colour-bar"></li>
-                    </ol>
-                    <ol class="equaliser-column">
-                        <li class="colour-bar"></li>
-                    </ol>
-                    <ol class="equaliser-column">
-                        <li class="colour-bar"></li>
-                    </ol>
-                    <ol class="equaliser-column">
-                        <li class="colour-bar"></li>
-                    </ol>
-                    <ol class="equaliser-column">
-                        <li class="colour-bar"></li>
-                    </ol>
+                <div id="bottomSongInfo">
+                    <div id="timeline">
+                        <span id="current-time">--:--</span>
+                        <span id="total-time">--:--</span>
+                        <div class="slider" data-direction="horizontal">
+                            <div class="progress">
+                                <div class="pin" id="progress-pin" data-method="rewind"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
 
             <div id="musicCover">
@@ -178,10 +194,10 @@
                         하이라이트 가사
                     </div>
                     <div id="lyricInside" onclick="showLyricAll();">
-            
+
                     </div>
                     <div id="lyricAll" onclick="showLyricHighlight();">
-            
+
                     </div>
                 </div>
 
@@ -193,12 +209,12 @@
                     <a href="" id="melonLink" target="_blank">
                         <img src="/icons/melon.png" class="outlink">
                     </a>
-                   
+
                 </div>
 
 
                 <div id="retestButton" class="defaultButton" onclick="retest();">
-                    다시 검사하기
+                    다시 테스트하기
                 </div>
 
 

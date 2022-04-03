@@ -2,7 +2,20 @@ var mbti;
 var prog;
 var index;
 var e, s, t, j;
+let musicDuration = 0;
 
+let timer;
+
+
+var playpauseBtn;
+var progress;
+var sliders;
+
+var RGB;
+
+
+var draggableClasses = ['pin'];
+var currentlyDragged = null;
 
 // js
 function setScreenSize() {
@@ -57,6 +70,22 @@ function onPlayerStateChange(event) {
         //플레이어가 재생중일 때 작성한 동작이 실행된다.
         // (원하는 시간만큼만 재생되고 멈추게 하는 것도 가능하다.)
     }
+    if (event.data == 1 && timer === undefined) {
+
+        videoDuration = player.getDuration();
+        $("#total-time").text(formatTime(videoDuration));
+
+        timer = setInterval(function () {
+            let current = player.getCurrentTime();
+            $("#current-time").text(formatTime(current));
+
+            var percent = (current / videoDuration) * 100;
+            progress.style.width = percent + '%';
+
+
+        }, 500);
+
+    }
     if (event.data == 0) {
         player.playVideo();
     }
@@ -106,9 +135,9 @@ function getAverageRGB(imgEl) {
     rgb.b = ~~(rgb.b / count);
 
 
-    rgb.r = rgb.r * 0.75;
-    rgb.g = rgb.g * 0.75;
-    rgb.b = rgb.b * 0.75;
+    // rgb.r = rgb.r * 0.75;
+    // rgb.g = rgb.g * 0.75;
+    // rgb.b = rgb.b * 0.75;
 
     return rgb;
 
@@ -217,6 +246,9 @@ function move() {
         $("#equaliser").hide();
         $("#equaliser").fadeIn(1000);
 
+        $("#timeline").removeClass("hidden");
+        $("#timeline").hide();
+        $("#timeline").fadeIn(1000);
 
 
 
@@ -233,7 +265,8 @@ function retest() {
 
 
 
-
+    clearInterval(timer);
+    timer = undefined;
 
     initTest();
     player.stopVideo();
@@ -241,7 +274,7 @@ function retest() {
 
     $(".a").fadeOut(1000);
     $(".q").fadeIn(1000);
-    $(".progress").fadeIn(1000);
+    $(".testProgress").fadeIn(1000);
 
     $("#playButton").addClass("fa-play");
     $("#playButton").removeClass("fa-pause");
@@ -257,6 +290,7 @@ function retest() {
         $("#equaliser").addClass("hidden");
         $("#songTitleInfo").addClass("hidden");
         $("#songSingerInfo").addClass("hidden");
+        $("#timeline").addClass("hidden");
         $("#songToolWrapper").show();
         $("#playHint").show();
     });
@@ -270,6 +304,8 @@ function retest() {
 
 
     $(".progressNum").children("span").text(prog);
+
+    showLyricHighlight();
 
 
 }
@@ -294,6 +330,9 @@ function showLyricHighlight() {
 
 $(function () {
 
+    playpauseBtn = document.querySelector('#play-btn');
+    progress = document.querySelector('.progress');
+    sliders = document.querySelectorAll('.slider');
     // let i = 0
     // for (let x in mbtiData["mbti"]) {
     //     console.log(x);
@@ -310,10 +349,10 @@ $(function () {
 
     $("#mbtiResult").hide();
 
-    // $(".q").fadeOut(1000);
-    // $(".progress").fadeOut(1000);
-    // $(".progressNum").fadeOut(1000);
-    // $(".n").fadeIn(1000);
+    $(".q").fadeOut(1000);
+    $(".testProgress").fadeOut(1000);
+    $(".progressNum").fadeOut(1000);
+    $(".n").fadeIn(1000);
 
 
 
@@ -340,17 +379,17 @@ $(function () {
             $(".progressNum").children("span").text(prog);
 
             if (prog <= 4) {
-                $(".bar").css({ "background-color": "#fbfcb9dd" });
+                $(".bar").css({ "background-color": "rgb(115, 116, 31, 0.87)" });
             } else if (prog <= 8) {
-                $(".bar").css({ "background-color": "#ffcdf3dd" });
+                $(".bar").css({ "background-color": "rgb(116, 34, 106, 0.87)" });
             } else {
-                $(".bar").css({ "background-color": "#65d3ffdd" });
+                $(".bar").css({ "background-color": "rgb(28, 104, 135, 0.87)" });
             }
 
             prog++;
         } else {
             $(".q").fadeOut(1000);
-            $(".progress").fadeOut(1000);
+            $(".testProgress").fadeOut(1000);
             $(".progressNum").fadeOut(1000);
             $(".n").fadeIn(1000);
         }
@@ -362,7 +401,7 @@ $(function () {
         (t >= 2) ? mbti += "T" : mbti += "F";
         (j >= 2) ? mbti += "J" : mbti += "P";
 
-        // /mbti = "ISFJ";
+        mbti = "ENTP";
 
         console.log(mbti);
         $(".n").fadeOut(1000);
@@ -390,18 +429,23 @@ $(function () {
         $target.find("#melonLink").attr("href", targetMbtiData.melonLink)
 
         $target.find("#albumImage").attr("src", `/albums/${targetMbtiData.albumImage}`).one("load", function () { //fires (only once) when loaded
-            var rgb = getAverageRGB(document.getElementById('albumImage'));
+            RGB = getAverageRGB(document.getElementById('albumImage'));
             // console.log(`linear-gradient(to bottom, black, rgb(${rgb.r},${rgb.g},${rgb.b})}`);
 
             // $("#resultWrapper").css("background", "red");
-            console.log(rgb);
-            $("#resultWrapper").css({ "background-image": `linear-gradient(rgb(${rgb.r},${rgb.g},${rgb.b}), rgb(0,0,0))` });
+            // console.log(rgb);
+            $("#resultWrapper").css({ "background-image": `linear-gradient(-45deg,  rgb(0,0,0) 15%, rgb(${RGB.r * 0.9},${RGB.g * 0.9},${RGB.b * 0.9}))` });
+
+            $(".progress").css({"background-color" : `rgb(${RGB.r * 1.3},${RGB.g * 1.3},${RGB.b * 1.3})`})
+
+            $(".a").fadeIn(1000);
         })
         $target.find("#albumImageSmall").attr("src", `/albums/${targetMbtiData.albumImage}`);
 
 
         $("#albumImageSmall").addClass("hidden");
         $("#equaliser").addClass("hidden");
+        $("#timeline").addClass("hidden");
         $("#songTitleInfo").addClass("hidden");
         $("#songSingerInfo").addClass("hidden");
 
@@ -413,14 +457,130 @@ $(function () {
                 videoId: targetMbtiData.videoCode,
                 startSeconds: targetMbtiData.videoStart
             }
-        )
+        );
         player.pauseVideo();
 
 
-        $(".a").fadeIn(1000);
+
+
 
         // var height = $target.outerHeight();
         // $(".a").height(height + 80);
     });
 
 });
+
+
+//////////////////////
+function getOffset(el) {
+    const rect = el.getBoundingClientRect();
+    return {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY
+    };
+}
+
+
+// window.addEventListener('mousedown', function (event) {
+
+//     if (!isDraggable(event.target)) return false;
+
+//     currentlyDragged = event.target;
+//     let handleMethod = currentlyDragged.dataset.method;
+
+//     this.addEventListener('mousemove', window[handleMethod], false);
+
+//     window.addEventListener('mouseup', () => {
+//         currentlyDragged = false;
+//         window.removeEventListener('mousemove', window[handleMethod], false);
+//     }, false);
+// });
+
+
+$(function () {
+    sliders.forEach(slider => {
+        let pin = slider.querySelector('.pin');
+        slider.addEventListener('click', window[pin.dataset.method]);
+    });
+});
+
+
+
+function isDraggable(el) {
+    let canDrag = false;
+    let classes = Array.from(el.classList);
+    draggableClasses.forEach(draggable => {
+        if (classes.indexOf(draggable) !== -1)
+            canDrag = true;
+    })
+    return canDrag;
+}
+
+function inRange(event) {
+    let rangeBox = getRangeBox(event);
+    let direction = rangeBox.dataset.direction;
+    let screenOffset = getOffset(sliders[0]).left;
+    var min = screenOffset - rangeBox.offsetLeft;
+    var max = min + rangeBox.offsetWidth;
+
+    console.log(event.clientX, min, max);
+
+    if (event.clientX < min || event.clientX > max) { return false };
+    return true;
+}
+
+function updateProgress() {
+    var current = player.currentTime;
+    var percent = (current / player.duration) * 100;
+    progress.style.width = percent + '%';
+
+    currentTime.textContent = formatTime(current);
+}
+
+function getRangeBox(event) {
+    let rangeBox = event.target;
+    let el = currentlyDragged;
+    if (event.type == 'click' && isDraggable(event.target)) {
+        rangeBox = event.target.parentElement.parentElement;
+    }
+    if (event.type == 'mousemove') {
+        rangeBox = el.parentElement.parentElement;
+    }
+    return rangeBox;
+}
+
+function getCoefficient(event) {
+    console.log("!!!!!!!1");
+    let slider = getRangeBox(event);
+    let screenOffset = getOffset(sliders[0]).left;
+    let K = 0;
+    let offsetX = event.clientX - screenOffset;
+    let width = slider.clientWidth;
+    K = offsetX / width;
+    return K;
+}
+
+function rewind(event) {
+    console.log(event);
+    if (inRange(event)) {
+        console.log(videoDuration * getCoefficient(event));
+        player.seekTo(videoDuration * getCoefficient(event));
+    }
+}
+
+function formatTime(time) {
+    var min = Math.floor(time / 60);
+    var sec = Math.floor(time % 60);
+    return min + ':' + ((sec < 10) ? ('0' + sec) : sec);
+}
+
+function togglePlay() {
+    player.volume = 0.5;
+
+    if (player.paused) {
+        player.play();
+    } else {
+        player.pause();
+    }
+}
+
