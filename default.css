@@ -430,7 +430,16 @@ ul.a {
     box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
     border-radius: 0.5rem;
     flex-shrink: 0;
+
+    cursor: pointer;
+    transition : filter 0.5s;
 }
+
+#albumImageSmall:hover {
+    filter: brightness(75%); 
+}
+
+
 
 #rightSongInfo {
     flex-grow: 1;
@@ -658,6 +667,9 @@ q {
     bottom: 0;
     height: 10px;
     background: #dddddd;
+
+
+    transition: all 0.5s;
 }
 
 .equaliser-column {

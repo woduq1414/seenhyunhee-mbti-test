@@ -713,12 +713,28 @@ function formatTime(time) {
 }
 
 function togglePlay() {
-    player.volume = 0.5;
 
-    if (player.paused) {
-        player.play();
+    if (player.getPlayerState() == 1) {
+        player.pauseVideo();
+
+        $('.colour-bar').each(function (index, item) {
+
+
+            // $(item).attr({"style" : "height : 10px !important"});
+            // $(item).css({"height" : "10px !important"});
+            $(item).css('animation', $(item).css("animation").replace("color-bar", "color-bar-pause"));
+        });
+
+
     } else {
-        player.pause();
+        player.playVideo();
+
+        $('.colour-bar').each(function (index, item) {
+
+            // $(item).attr({"style" : "height : 10px"});
+            // $(item).css({"height" : "10px"});
+            $(item).css('animation', $(item).css("animation").replace("color-bar-pause", "color-bar"));
+        });
     }
 }
 
