@@ -59,7 +59,7 @@ function swapNode(node1, node2) {
 function shuffleOption() {
     let ul_q = document.querySelector("ul.q");
     let li_list = ul_q.querySelectorAll("li");
-    console.log(li_list);
+    // console.log(li_list);
     for (let i = 1; i <= 12; i++) {
         if (Math.random() > 0.5) {
             let li = li_list[i];
@@ -94,7 +94,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player = undefined;
 
 function onYouTubeIframeAPIReady() {
-    console.log("EE");
+    // console.log("EE");
     player = new YT.Player('player', {
         //width&height를 설정할 수 있으나, 따로 css영역으로 뺐다.
         events: {
@@ -113,7 +113,7 @@ function onPlayerReady(event) {
 
 var done = false;
 function onPlayerStateChange(event) {
-    console.log(event);
+    // console.log(event);
     if (event.data == YT.PlayerState.PLAYING && !done) {
         done = true;
         //플레이어가 재생중일 때 작성한 동작이 실행된다.
@@ -541,7 +541,7 @@ $(function () {
                 }, 2000);
 
             }
-            console.log("notload")
+            // console.log("notload")
         }, 100);
     })();
 
@@ -598,7 +598,7 @@ function renderMbtiResult(mbti) {
     $("#myMbti").text(mbti);
 
 
-    console.log("player is ", player, targetMbtiData.videoCode, player.getPlayerState());
+    // console.log("player is ", player, targetMbtiData.videoCode, player.getPlayerState());
     player.loadVideoById(
         {
             videoId: targetMbtiData.videoCode,
@@ -688,7 +688,7 @@ function getRangeBox(event) {
 }
 
 function getCoefficient(event) {
-    console.log("!!!!!!!1");
+
     let slider = getRangeBox(event);
     let screenOffset = getOffset(sliders[0]).left;
     let K = 0;
@@ -699,7 +699,7 @@ function getCoefficient(event) {
 }
 
 function rewind(event) {
-    console.log(event);
+    // console.log(event);
     if (inRange(event)) {
         console.log(videoDuration * getCoefficient(event));
         player.seekTo(videoDuration * getCoefficient(event));
